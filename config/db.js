@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 
-// Cambia la URL de conexión según tu configuración local o en la nube
-const mongoURI = 'mongodb://localhost:27017/gestor-finanzas'; // Reemplaza con tu URI
+const mongoURI = 'mongodb://localhost:27017/gestor-finanzas';
 
 // Función para conectar a MongoDB
 const connectDB = async () => {
